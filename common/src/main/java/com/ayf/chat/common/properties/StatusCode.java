@@ -23,7 +23,12 @@ public enum StatusCode {
     /**
      * 校验失败
      */
-    VALIDATE_EXCEPTION(1304, "校验失败")
+    VALIDATE_EXCEPTION(1304, "校验失败"),
+
+    /**
+     * 返回异常
+     */
+    RESPONSE_RETURN_EXCEPTION(1404, "结果返回异常")
     ;
 
     /**

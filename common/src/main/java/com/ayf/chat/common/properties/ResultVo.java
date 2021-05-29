@@ -22,6 +22,12 @@ public class ResultVo {
      */
     private final Object data;
 
+    public ResultVo(Object object){
+        this.code = StatusCode.SUCCESS.getCode();
+        this.msg = StatusCode.SUCCESS.getMsg();
+        this.data = object;
+    }
+
     public ResultVo(StatusCode statusCode, Object object){
         this.code = statusCode.getCode();
         this.msg = statusCode.getMsg();
