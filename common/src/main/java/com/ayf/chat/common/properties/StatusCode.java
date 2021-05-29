@@ -1,4 +1,4 @@
-package com.ayf.common.properties;
+package com.ayf.chat.common.properties;
 
 /**
  * @author YifeiAn

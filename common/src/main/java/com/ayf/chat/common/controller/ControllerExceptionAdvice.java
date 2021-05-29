@@ -1,8 +1,8 @@
-package com.ayf.common.controller;
+package com.ayf.chat.common.controller;
 
-import com.ayf.common.ApiException;
-import com.ayf.common.properties.ResultVo;
-import com.ayf.common.properties.StatusCode;
+import com.ayf.chat.common.ApiException;
+import com.ayf.chat.common.properties.ResultVo;
+import com.ayf.chat.common.properties.StatusCode;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;

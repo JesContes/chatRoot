@@ -1,5 +1,6 @@
-package com.ayf.controller;
+package com.ayf.chat.auth.controller;
 
+import com.ayf.chat.common.ApiException;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -10,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class LoginController {
     @PostMapping("/login")
-    public String login(){
+    public String login () throws Exception {
         return "登录成功";
     }
 }

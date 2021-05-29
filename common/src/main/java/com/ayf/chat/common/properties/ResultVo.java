@@ -1,4 +1,4 @@
-package com.ayf.common.properties;
+package com.ayf.chat.common.properties;
 
 import lombok.Getter;
 
@@ -20,18 +20,18 @@ public class ResultVo {
     /**
      * 返回数据
      */
-    private final Object object;
+    private final Object data;
 
     public ResultVo(StatusCode statusCode, Object object){
         this.code = statusCode.getCode();
         this.msg = statusCode.getMsg();
-        this.object = object;
+        this.data = object;
     }
 
     public ResultVo(int code, String msg, Object object){
         this.code = code;
         this.msg = msg;
-        this.object = object;
+        this.data = object;
     }
 
 }

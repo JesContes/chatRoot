@@ -1,6 +1,6 @@
-package com.ayf.common;
+package com.ayf.chat.common;
 
-import com.ayf.common.properties.StatusCode;
+import com.ayf.chat.common.properties.StatusCode;
 import lombok.Getter;
 
 /**
